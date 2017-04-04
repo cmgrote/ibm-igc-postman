@@ -1,0 +1,1014 @@
+{
+	"variables": [],
+	"info": {
+		"name": "IGC - 11.5.0.1ru7",
+		"_postman_id": "9bf03f0f-603c-b047-11e1-f9eb4d37f17b",
+		"description": "Full set of REST API endpoints and operations for Information Governance Catalog v11.5.0.1 with Governance Rollup 7.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "assets",
+			"description": "Assets in the catalog",
+			"item": [
+				{
+					"name": "updateAssetsInBatch",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}//ibm/iis/igc-rest/v1/assets/",
+						"method": "PUT",
+						"header": [],
+						"body": {},
+						"description": "Batch editing of assets to apply the same changes to all assets"
+					},
+					"response": []
+				},
+				{
+					"name": "createAsset",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Create an asset"
+					},
+					"response": []
+				},
+				{
+					"name": "getAssetById",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id?mode=&metadata=",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"assets",
+								":id"
+							],
+							"query": [
+								{
+									"key": "mode",
+									"value": ""
+								},
+								{
+									"key": "metadata",
+									"value": ""
+								}
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get an asset by its ID\n\nParameters:\n\nid: The RID of the asset.<p>Use the GET /search/{type} command to get the metadata about a specific asset type. In the Response Body area, find the asset name whose RID you need. The RID is the value in the '_id' property.</p> \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "deleteAssetById",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id?comment=",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"assets",
+								":id"
+							],
+							"query": [
+								{
+									"key": "comment",
+									"value": ""
+								}
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": "Delete an asset by its ID\n\nParameters:\n\nid: The RID of the asset.\nUse the GET /search/{type} command to get the metadata about a specific asset type. In the Response Body area, find the asset name whose RID you need. The RID is the value in the '_id' property. \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "updateAsset",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"assets",
+								":id"
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {},
+						"description": "Update an asset\n\nParameters:\n\nid: The RID of the asset \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "getAssetPropertyById",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id/:property?begin=&pageSize=",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"assets",
+								":id",
+								":property"
+							],
+							"query": [
+								{
+									"key": "begin",
+									"value": ""
+								},
+								{
+									"key": "pageSize",
+									"value": ""
+								}
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								},
+								{
+									"value": "",
+									"id": "property"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get the property of an asset by the asset's ID and the property name\n\nParameters:\n\nid: The RID of the asset \n\nproperty: The property name of the property to get. \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "updateAssetProperty",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id/:property",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"assets",
+								":id",
+								":property"
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								},
+								{
+									"value": "",
+									"id": "property"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {},
+						"description": "Update a property of an asset\n\nParameters:\n\nid: The RID of the asset. \n\nproperty: The property to update. \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "createDataConnection",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/admin/dataconnection",
+						"method": "PUT",
+						"header": [],
+						"body": {},
+						"description": "Create a data connection"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "bundles",
+			"description": "Asset bundle management",
+			"item": [
+				{
+					"name": "getBundles",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get the list of registered bundles"
+					},
+					"response": []
+				},
+				{
+					"name": "registerBundle",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Register a new asset bundle"
+					},
+					"response": []
+				},
+				{
+					"name": "updateBundle",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/",
+						"method": "PUT",
+						"header": [],
+						"body": {},
+						"description": "Update a previously registered asset bundle"
+					},
+					"response": []
+				},
+				{
+					"name": "unregisterBundle",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/:id",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"bundles",
+								":id"
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": "Unregister an asset bundle by its ID\n\nParameters:\n\nid: The ID of the asset bundle. \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "downloadBundle",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/:id",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"bundles",
+								":id"
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Download a registered bundle as a zip file\n\nParameters:\n\nid: The ID of the asset bundle. \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "publishAssets",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/assets",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Upload assets defined by asset bundles"
+					},
+					"response": []
+				},
+				{
+					"name": "deleteAssets",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/assets",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": "Delete assets defined by asset bundles"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "flows",
+			"description": "Lineage flow graph operations",
+			"item": [
+				{
+					"name": "lineageReport",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/:criteria",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"flows",
+								":criteria"
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "criteria"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get a data lineage report, as CSV (default) or PDF.\n\nParameters:\n\ncriteria: The lineage report criteria. See its JSON Data Type Model in POST /flows/report. \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "detectFlowsOfJob",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/detectFlows/dsjob/:id",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"flows",
+								"detectFlows",
+								"dsjob",
+								":id"
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Trigger flow analysis of a DataStage job design, by its ID.\n\nParameters:\n\nid: The RID of the DataStage Job.<p>Use the GET /search/{type} command to get the metadata about a specific asset type. In the Response Body area, find the asset name whose RID you need. The RID is the value in the '_id' property.</p> \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "lineageReportFromPostedCriteria",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/report",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Get a data lineage report regardless of criteria size, as CSV (default) or PDF."
+					},
+					"response": []
+				},
+				{
+					"name": "upload",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/upload",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Upload flow graph to the flows model"
+					},
+					"response": []
+				},
+				{
+					"name": "lineageURL",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/url/:criteria",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"flows",
+								"url",
+								":criteria"
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "criteria"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get the URL of a data lineage report\n\nParameters:\n\ncriteria: The lineage report criteria. See its JSON Data Type Model in POST /flows/report. \n\n"
+					},
+					"response": []
+				},
+				{
+					"name": "flowAssetXmlSnippet",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/util/snippet/:id",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"flows",
+								"util",
+								"snippet",
+								":id"
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get an XML snippet for using an asset in flow docs, by its ID.\n\nParameters:\n\nid: The RID of the asset.<p>Use the GET /search/{type} command to get the metadata about a specific asset type. In the Response Body area, find the asset name whose RID you need. The RID is the value in the '_id' property.</p> \n\n"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "search",
+			"description": "Search or query catalog assets",
+			"item": [
+				{
+					"name": "search",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/search/?types=&text=&search-properties=&properties=&where=&begin=&pageSize=&applyCriteriaToProperties=&workflowMode=",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Search for assets in the catalog"
+					},
+					"response": []
+				},
+				{
+					"name": "searchUsingInputStructure",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/search/",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Search for assets in the catalog by posting a complex search request"
+					},
+					"response": []
+				},
+				{
+					"name": "browseAssetsForType",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/search/:type?workflowMode=",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"search",
+								":type"
+							],
+							"query": [
+								{
+									"key": "workflowMode",
+									"value": ""
+								}
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "type"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Browse all assets of a given type\n\nParameters:\n\ntype: The asset type to search. \n\n"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "types",
+			"description": "Asset types and their properties",
+			"item": [
+				{
+					"name": "getAllTypes",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/types/",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get the list of all asset types in the catalog"
+					},
+					"response": []
+				},
+				{
+					"name": "getTypeById",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": {
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/types/:id?showEditProperties=&showViewProperties=&showCreateProperties=",
+							"protocol": "https",
+							"auth": {},
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"ibm",
+								"iis",
+								"igc-rest",
+								"v1",
+								"types",
+								":id"
+							],
+							"query": [
+								{
+									"key": "showEditProperties",
+									"value": ""
+								},
+								{
+									"key": "showViewProperties",
+									"value": ""
+								},
+								{
+									"key": "showCreateProperties",
+									"value": ""
+								}
+							],
+							"variable": [
+								{
+									"value": "",
+									"id": "id"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": "Get the metadata about an asset type\n\nParameters:\n\nid: The value of '_id' in the GET/types command.  For example, database_table or logical_data_model. \n\n"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "workflow",
+			"description": "Workflow operations",
+			"item": [
+				{
+					"name": "approveAssets",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/approve",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Approve assets that are in the Pending Approval state."
+					},
+					"response": []
+				},
+				{
+					"name": "discardAssets",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/discard",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Discard assets in Draft state"
+					},
+					"response": []
+				},
+				{
+					"name": "publishAssets",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/publish",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Publish assets that are in the Approved state"
+					},
+					"response": []
+				},
+				{
+					"name": "requestApproval",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/request",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Request approval for assets that are in the Draft state"
+					},
+					"response": []
+				},
+				{
+					"name": "returnAssets",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"username": "{{username}}",
+								"password": "{{password}}",
+								"saveHelperData": true,
+								"showPassword": false
+							}
+						},
+						"url": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/return",
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"description": "Return assets that are in the Pending Approval state to Draft state"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

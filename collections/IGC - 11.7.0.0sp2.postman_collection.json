@@ -29,7 +29,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes/",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -42,15 +42,14 @@
 										"v1",
 										"metadata",
 										"administration",
-										"attributes",
-										""
+										"attributes"
 									]
 								},
 								"description": "Create a custom attribute by passing in a JSON object with the required and optional properties.\n\n- Required properties for all custom attribute types are \"name\", \"appliesTo\", and \"attributeType\". \n- Custom attributes of type predefined values require also property \"validValues\". \n- Custom attributes of type relationship require also properties \"inverseName\" and \"targetReferences\".\n\nResponses:\n- `400`\tBad request\n- `401`\tUnauthorized\t\n- `403`\tCannot create a custom attribute"
 							},
 							"response": [
 								{
-									"id": "a4a9c0ea-9a68-40d5-bb62-8c27a7898dbf",
+									"id": "033e019b-847b-4ccb-a33c-a6464f1c8ec6",
 									"name": "relationship",
 									"originalRequest": {
 										"method": "POST",
@@ -91,7 +90,7 @@
 									"body": ""
 								},
 								{
-									"id": "da5c7d43-5c74-497c-a1f4-bf98085ec3c4",
+									"id": "7cd12d28-e6d6-424f-a1b9-19becceb10f2",
 									"name": "text",
 									"originalRequest": {
 										"method": "POST",
@@ -133,7 +132,7 @@
 									"body": ""
 								},
 								{
-									"id": "64f63469-7a2b-4369-9952-d31ede21fb87",
+									"id": "905d821b-34f0-4e60-a86e-a95ca1d1180a",
 									"name": "numeric",
 									"originalRequest": {
 										"method": "POST",
@@ -174,7 +173,7 @@
 									"body": ""
 								},
 								{
-									"id": "6f0d74a5-0cd9-4d57-be3d-6ca4bc715934",
+									"id": "1eb66c22-39f5-41a0-b442-d7c8f3a4e216",
 									"name": "date",
 									"originalRequest": {
 										"method": "POST",
@@ -215,7 +214,7 @@
 									"body": ""
 								},
 								{
-									"id": "6dce432a-7d40-4459-ab2e-39dd0567855d",
+									"id": "b03f3252-83cd-44a6-87f0-89fe50d9117c",
 									"name": "enumeration",
 									"originalRequest": {
 										"method": "POST",
@@ -272,7 +271,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes/",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -285,15 +284,14 @@
 										"v1",
 										"metadata",
 										"administration",
-										"attributes",
-										""
+										"attributes"
 									]
 								},
 								"description": "Delete more than one custom attribute by their IDs\n\nResponses:\n- `400`\tBad request\t\n- `401`\tUnauthorized\t\n- `403`\tCannot delete custom attributes\t\n- `404`\tCustom attribute not found"
 							},
 							"response": [
 								{
-									"id": "47590dde-34aa-430b-a119-4074ba81f77b",
+									"id": "c1b5c584-d5a9-409d-83dd-7c4dd33868e0",
 									"name": "arrayOfRIDs",
 									"originalRequest": {
 										"method": "DELETE",
@@ -343,7 +341,7 @@
 								"header": [],
 								"body": {},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes/?begin=&pageSize=",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes?begin=&pageSize=",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -356,8 +354,7 @@
 										"v1",
 										"metadata",
 										"administration",
-										"attributes",
-										""
+										"attributes"
 									],
 									"query": [
 										{
@@ -374,7 +371,7 @@
 							},
 							"response": [
 								{
-									"id": "b78066bd-2cf3-4881-85ed-5409834aa624",
+									"id": "2bad61d0-bc55-4e62-9bf5-dd3a554ed378",
 									"name": "getCustomAttributes",
 									"originalRequest": {
 										"method": "GET",
@@ -460,7 +457,7 @@
 							},
 							"response": [
 								{
-									"id": "31b91881-d1d9-4dd4-9a99-1b13993e520e",
+									"id": "db012ddc-50e4-4ff5-9cf4-a9fe3aa1cf75",
 									"name": "date",
 									"originalRequest": {
 										"method": "PUT",
@@ -507,7 +504,7 @@
 									"body": ""
 								},
 								{
-									"id": "d95ae233-50e7-4bf7-94d1-79944ab4bd06",
+									"id": "eeafbef5-3225-4ff5-ad4e-008c10bb16ef",
 									"name": "numeric",
 									"originalRequest": {
 										"method": "PUT",
@@ -554,7 +551,7 @@
 									"body": ""
 								},
 								{
-									"id": "624a4f82-f852-4e32-b79b-ea83792917c6",
+									"id": "853bb3db-dc35-479c-b567-715d59821071",
 									"name": "relationship",
 									"originalRequest": {
 										"method": "PUT",
@@ -601,7 +598,7 @@
 									"body": ""
 								},
 								{
-									"id": "c0e04ea0-acf2-4c24-917a-a52573e8c15c",
+									"id": "9a1c63eb-afa5-4880-a156-f66d9a12ca1d",
 									"name": "enumeration",
 									"originalRequest": {
 										"method": "PUT",
@@ -648,7 +645,7 @@
 									"body": ""
 								},
 								{
-									"id": "83bfd3eb-8b46-4f38-ac46-c5d954cbbb3b",
+									"id": "e43ce564-1316-4b2f-a8ca-c3ff640feef8",
 									"name": "text",
 									"originalRequest": {
 										"method": "PUT",
@@ -731,7 +728,7 @@
 							},
 							"response": [
 								{
-									"id": "0c107b9b-52de-4860-a184-721246c93973",
+									"id": "1d5c8822-6690-4473-bb47-0e80f5ac629b",
 									"name": "byId",
 									"originalRequest": {
 										"method": "GET",
@@ -805,7 +802,7 @@
 							},
 							"response": [
 								{
-									"id": "bb9619b3-d813-41b2-bb24-22f90c1359bd",
+									"id": "9e2fd4c9-eec9-4b3b-a923-414bf21b0859",
 									"name": "byId",
 									"originalRequest": {
 										"method": "DELETE",
@@ -867,7 +864,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/labels/",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/labels",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -880,15 +877,14 @@
 										"v1",
 										"metadata",
 										"administration",
-										"labels",
-										""
+										"labels"
 									]
 								},
 								"description": "Delete more than one label by their IDs\n\nResponses:\n- `400`\tBad request\t\n- `401`\tUnauthorized\t\n- `403`\tCannot delete labels\t\n- `404`\tLabel not found"
 							},
 							"response": [
 								{
-									"id": "27e0298c-5c0a-4ca8-9835-aa9ebc4ece04",
+									"id": "60229b9b-ecb4-4028-bb3d-a1d06787baf6",
 									"name": "arrayOfRIDs",
 									"originalRequest": {
 										"method": "DELETE",
@@ -941,7 +937,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/labels/",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/labels",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -954,15 +950,14 @@
 										"v1",
 										"metadata",
 										"administration",
-										"labels",
-										""
+										"labels"
 									]
 								},
 								"description": "Create a label by passing in a JSON object with the required name and optionally with a description.\n\nResponses:\n- `400`\tBad request\t\n- `401`\tUnauthorized\t\n- `403`\tCannot create a label"
 							},
 							"response": [
 								{
-									"id": "a9e5cc34-0a08-4a0b-855b-2cc7f289a9b6",
+									"id": "f3be0a8c-508f-48d0-b502-a88f7ba42c23",
 									"name": "nameAndDescription",
 									"originalRequest": {
 										"method": "POST",
@@ -1034,7 +1029,7 @@
 							},
 							"response": [
 								{
-									"id": "2cc717f6-ffc0-400a-9fd4-f01d5b4d9474",
+									"id": "c5530922-75fc-4c22-bd01-0e56b6a92d03",
 									"name": "byId",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1116,7 +1111,7 @@
 							},
 							"response": [
 								{
-									"id": "5316230d-f51d-4ffb-a6cd-0d9563f437cf",
+									"id": "52f84246-cb10-4702-90b5-0e3ad67ec978",
 									"name": "byId",
 									"originalRequest": {
 										"method": "PUT",
@@ -1187,7 +1182,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/steward_groups/",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/steward_groups",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1200,15 +1195,14 @@
 										"v1",
 										"metadata",
 										"administration",
-										"steward_groups",
-										""
+										"steward_groups"
 									]
 								},
 								"description": "Delete more than one steward group by their IDs\n\nResponses:\n- `400`\tBad request\t\n- `401`\tUnauthorized\t\n- `403`\tCannot delete steward groups\t\n- `404`\tSteward group not found"
 							},
 							"response": [
 								{
-									"id": "2ec95b7f-c895-4e76-8b5d-ecff44ca0669",
+									"id": "b63c8ceb-3181-4e75-8eb9-d2715381f58b",
 									"name": "arrayOfRIDs",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1265,7 +1259,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/steward_groups/",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/steward_groups",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1278,15 +1272,14 @@
 										"v1",
 										"metadata",
 										"administration",
-										"steward_groups",
-										""
+										"steward_groups"
 									]
 								},
 								"description": "Add a steward group by passing in a JSON object with the ID of a user group.\n\nResponses:\n- `400`\tBad request\t\n- `401`\tUnauthorized\t\n- `403`\tCannot create a steward group\t\n- `404`\tSteward not found"
 							},
 							"response": [
 								{
-									"id": "e58cf728-2a6f-4ce4-8b1a-5fba39e00575",
+									"id": "6ed32dab-7924-445c-81b4-efff5f3ac1ee",
 									"name": "byUserGroupId",
 									"originalRequest": {
 										"method": "POST",
@@ -1363,7 +1356,7 @@
 							},
 							"response": [
 								{
-									"id": "790f2c1c-ddc6-448c-be88-5926c2eaeca6",
+									"id": "0372f334-a2db-43cc-8250-2be872fff05b",
 									"name": "byId",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1425,7 +1418,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/stewards/",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/stewards",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1438,15 +1431,14 @@
 										"v1",
 										"metadata",
 										"administration",
-										"stewards",
-										""
+										"stewards"
 									]
 								},
 								"description": "Add a steward by passing in a JSON object with the ID of a user.\n\nResponses:\n- `400`\tBad request\t\n- `401`\tUnauthorized\t\n- `403`\tCannot create a steward"
 							},
 							"response": [
 								{
-									"id": "3186c434-64a5-45e1-a649-f5537b000319",
+									"id": "026d902e-9b97-4cc0-b088-288c9f39113b",
 									"name": "byUserId",
 									"originalRequest": {
 										"method": "POST",
@@ -1505,7 +1497,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/stewards/",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/stewards",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1518,15 +1510,14 @@
 										"v1",
 										"metadata",
 										"administration",
-										"stewards",
-										""
+										"stewards"
 									]
 								},
 								"description": "Delete more than one steward by their IDs\n\nResponses:\n- `400`\tBad request\t\n- `401`\tUnauthorized\t\n- `403`\tCannot delete stewards\t\n- `404`\tSteward not found"
 							},
 							"response": [
 								{
-									"id": "58bdef03-511d-43e6-98e9-01acdf577930",
+									"id": "6a24d494-518b-439f-a164-7b75afe0370d",
 									"name": "arrayOfRIDs",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1603,7 +1594,7 @@
 							},
 							"response": [
 								{
-									"id": "591cfd04-aa04-4ef6-b2a2-6028e0d2c230",
+									"id": "95ddfdf8-9c90-4f8e-b260-93dc1731df3c",
 									"name": "byId",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1667,7 +1658,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets/",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -1679,15 +1670,14 @@
 								"igc-rest",
 								"v1",
 								"metadata",
-								"assets",
-								""
+								"assets"
 							]
 						},
 						"description": "Update assets by passing in a JSON object with the updated properties in a field called `properties` as well as a field with a list of asset `ids`.\n\nSee the Examples section to see the syntax for modifying multi-reference values with the replace or the add mode.\n\nResponses:\n- `401`\tUnauthorized\t\n- `403`\tCannot update assets\t\n- `404`\tAsset not found"
 					},
 					"response": [
 						{
-							"id": "4597a0a7-4e5d-440c-8522-352ca64d5e50",
+							"id": "8a64fa3a-8217-4cdf-9433-2a12b05a34be",
 							"name": "addLabelAndMore",
 							"originalRequest": {
 								"method": "PUT",
@@ -1744,7 +1734,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets/",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -1756,15 +1746,14 @@
 								"igc-rest",
 								"v1",
 								"metadata",
-								"assets",
-								""
+								"assets"
 							]
 						},
 						"description": "Create an asset by passing in a JSON object with the required and additional properties (currently supported: `term`, `category`, `information_governance_policy`, `information_governance_rule`, `collection`, `label`, `data_class`).\n\nMust include a `_type` field as well as all required fields.\n\nSee the Examples section to see the syntax of the JSON object.\n\nResponses:\n- `401`\tUnauthorized\t\n- `403`\tCannot create asset"
 					},
 					"response": [
 						{
-							"id": "90eb097a-3ceb-4228-ad9c-88b7c98bd8fd",
+							"id": "432a40de-638c-4f13-98d4-5e1e052639df",
 							"name": "createDataClass",
 							"originalRequest": {
 								"method": "POST",
@@ -1804,7 +1793,7 @@
 							"body": ""
 						},
 						{
-							"id": "dd6398a0-f010-420c-b559-45259bd5ead6",
+							"id": "868b9cd1-e4e5-423d-b981-f0c8d07599e9",
 							"name": "createTerm",
 							"originalRequest": {
 								"method": "POST",
@@ -1892,7 +1881,7 @@
 					},
 					"response": [
 						{
-							"id": "1f9d6afb-266f-4e63-85a3-8cf12bbd0d51",
+							"id": "9b2a117f-0cb9-41f2-8711-0ade78b65d1a",
 							"name": "byId",
 							"originalRequest": {
 								"method": "GET",
@@ -1986,7 +1975,7 @@
 					},
 					"response": [
 						{
-							"id": "c1db3271-fa75-423a-a62c-a0ed74a5b3f2",
+							"id": "5d427923-1d83-480e-951f-9484e1cc21af",
 							"name": "replaceLabels",
 							"originalRequest": {
 								"method": "PUT",
@@ -2032,7 +2021,7 @@
 							"body": ""
 						},
 						{
-							"id": "fd8cb9c5-9aaa-49fa-8dff-2d70ccefe5b0",
+							"id": "8fb87d9a-83f2-4d83-870e-ff346352dd1e",
 							"name": "updateWithMultipleValues",
 							"originalRequest": {
 								"method": "PUT",
@@ -2078,7 +2067,7 @@
 							"body": ""
 						},
 						{
-							"id": "b73b875e-a899-4d98-8877-fc5371b38749",
+							"id": "340a3d89-171b-4f6d-ae02-d3c49c4e7095",
 							"name": "addLabels",
 							"originalRequest": {
 								"method": "PUT",
@@ -2125,7 +2114,7 @@
 							"body": ""
 						},
 						{
-							"id": "5453552b-395d-42ad-9af3-aec85463385f",
+							"id": "3314ce73-68bd-429f-842e-3cf815d73b05",
 							"name": "removeLabels",
 							"originalRequest": {
 								"method": "PUT",
@@ -2211,7 +2200,7 @@
 					},
 					"response": [
 						{
-							"id": "0e9766e3-d26b-48b8-88d9-cfb13e4be3ed",
+							"id": "d71c9231-e8c5-45b5-a80a-54b0f380ef26",
 							"name": "byIdWithComment",
 							"originalRequest": {
 								"method": "DELETE",
@@ -2304,7 +2293,7 @@
 					},
 					"response": [
 						{
-							"id": "b7266e49-cc59-44b2-b120-d5f268589ef8",
+							"id": "5e65a627-3dc9-4d71-ac72-d8c4b32c308e",
 							"name": "getAssignedToTerms",
 							"originalRequest": {
 								"method": "GET",
@@ -2357,7 +2346,7 @@
 							"body": "{\n  \"assigned_to_terms\" : {\n    \"items\" : [ {\n      \"_type\" : \"term\",\n      \"_id\" : \"6662c0f2.e1b1ec6c.p864kc71e.h0sg5bl.ts8vmu.ut3qd549drooimq967loj\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.e1b1ec6c.p864kc71e.h0sg5bl.ts8vmu.ut3qd549drooimq967loj\",\n      \"_name\" : \"User bank account\"\n    } ],\n    \"paging\" : {\n      \"numTotal\" : 1,\n      \"pageSize\" : 10,\n      \"end\" : 0,\n      \"begin\" : 0\n    }\n  }\n}"
 						},
 						{
-							"id": "e99ea0f1-1117-4cf3-9919-7ea7fb8a19a3",
+							"id": "a77fd761-0705-4f7c-96cd-2c97c68324c5",
 							"name": "getTermShortDescription",
 							"originalRequest": {
 								"method": "GET",
@@ -2457,7 +2446,7 @@
 					},
 					"response": [
 						{
-							"id": "3ad3780e-245b-4640-bdaa-8434a6ac641f",
+							"id": "13b334c4-39a1-40d2-a065-84224eaec7cb",
 							"name": "addMultipleValues",
 							"originalRequest": {
 								"method": "PUT",
@@ -2546,7 +2535,7 @@
 					},
 					"response": [
 						{
-							"id": "c4a1d0fc-e9cb-4875-82f8-6d6dc85bf7da",
+							"id": "51763098-659a-4a6a-96df-08d971058ec4",
 							"name": "byConnectionString",
 							"originalRequest": {
 								"method": "PUT",
@@ -2602,7 +2591,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles/",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2614,15 +2603,14 @@
 								"igc-rest",
 								"v1",
 								"metadata",
-								"bundles",
-								""
+								"bundles"
 							]
 						},
 						"description": "Get the list of registered bundles\n\nResponses:\n- `400`\tBad Request"
 					},
 					"response": [
 						{
-							"id": "5b42369d-bb75-4fde-981b-65ad0387262f",
+							"id": "11c4f9a4-3858-487c-aa2b-e7b9fd54847c",
 							"name": "getBundles",
 							"originalRequest": {
 								"method": "GET",
@@ -2665,7 +2653,7 @@
 							"file": {}
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles/",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2677,8 +2665,7 @@
 								"igc-rest",
 								"v1",
 								"metadata",
-								"bundles",
-								""
+								"bundles"
 							]
 						},
 						"description": "Update a previously registered asset bundle.\n\nThe file format must follow the guidelines described at: http://www-01.ibm.com/support/docview.wss?uid=swg21699130\n\nResponses:\n- `400`\tBad Request\t\n- `401`\tUnauthorized"
@@ -2695,7 +2682,7 @@
 							"file": {}
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles/",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2707,8 +2694,7 @@
 								"igc-rest",
 								"v1",
 								"metadata",
-								"bundles",
-								""
+								"bundles"
 							]
 						},
 						"description": "Register a new asset bundle.\n\nThe file format must follow the guidelines described at: http://www-01.ibm.com/support/docview.wss?uid=swg21699130\n\nResponses:\n- `400`\tBad Request\t\n- `401`\tUnauthorized"
@@ -2748,7 +2734,7 @@
 					},
 					"response": [
 						{
-							"id": "7ae34d74-8bcb-44af-b756-45d70c7cd25e",
+							"id": "9222af20-a36d-4585-bbb6-a785dadd6153",
 							"name": "byName",
 							"originalRequest": {
 								"method": "DELETE",
@@ -2855,7 +2841,7 @@
 					},
 					"response": [
 						{
-							"id": "fa65e57d-9f1a-4558-a8ce-6f19b78930fe",
+							"id": "c4938fb3-7c59-4788-92fd-eeff0f2475ab",
 							"name": "deleteAssets",
 							"originalRequest": {
 								"method": "DELETE",
@@ -3195,7 +3181,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/search/?types=&text=&search-properties=&properties=&where=&begin=&pageSize=&applyCriteriaToProperties=&workflowMode=",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/search?types=&text=&search-properties=&properties=&where=&begin=&pageSize=&applyCriteriaToProperties=&workflowMode=",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3207,8 +3193,7 @@
 								"igc-rest",
 								"v1",
 								"metadata",
-								"search",
-								""
+								"search"
 							],
 							"query": [
 								{
@@ -3253,7 +3238,7 @@
 					},
 					"response": [
 						{
-							"id": "72dc98bf-f659-4445-b377-e2281f0d37f4",
+							"id": "7ee318d3-1786-41ef-84b5-2bf7405bac3e",
 							"name": "notContainingBank",
 							"originalRequest": {
 								"method": "GET",
@@ -3327,7 +3312,7 @@
 							"body": "{\n  \"items\" : [ {\n    \"_type\" : \"term\",\n    \"_id\" : \"6662c0f2.e1b1ec6c.p764l95hu.5755bl1.sga7hs.99mg7kadp9js714ddk3i8\",\n    \"_context\" : [ {\n      \"_type\" : \"category\",\n      \"_id\" : \"6662c0f2.ee6a64fe.p764l95hr.ma3rs2j.1jepn8.uunj4ohq087of309to1cg\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.ee6a64fe.p764l95hr.ma3rs2j.1jepn8.uunj4ohq087of309to1cg\",\n      \"_name\" : \"Generated category 2\"\n    } ],\n    \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.e1b1ec6c.p764l95hu.5755bl1.sga7hs.99mg7kadp9js714ddk3i8\",\n    \"_name\" : \"User bank account\"\n  }, {\n    \"_type\" : \"database_table\",\n    \"_id\" : \"b1c497ce.54bd3a08.61r4e6psn.7q44t9b.22882h.i2h2pg9ti2goo3e04ov3t\",\n    \"_context\" : [ {\n      \"_type\" : \"host\",\n      \"_id\" : \"b1c497ce.354f5217.61r4e6psn.823flft.gskm3a.rnnvh0im95o0ltb17e61g\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.354f5217.61r4e6psn.823flft.gskm3a.rnnvh0im95o0ltb17e61g\",\n      \"_name\" : \"localhost\"\n    }, {\n      \"_type\" : \"database\",\n      \"_id\" : \"b1c497ce.6e83759b.61r4e6psn.8k6hogq.mh8tui.qv55iqfi8io36pr064fc1\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.6e83759b.61r4e6psn.8k6hogq.mh8tui.qv55iqfi8io36pr064fc1\",\n      \"_name\" : \"arubamdm\"\n    }, {\n      \"_type\" : \"database_schema\",\n      \"_id\" : \"b1c497ce.c1fb060b.61r4e6psn.8k68gid.djkfbv.8933vsqfh73r4i5m9kd20\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.c1fb060b.61r4e6psn.8k68gid.djkfbv.8933vsqfh73r4i5m9kd20\",\n      \"_name\" : \"DB2ADMIN\"\n    } ],\n    \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.54bd3a08.61r4e6psn.7q44t9b.22882h.i2h2pg9ti2goo3e04ov3t\",\n    \"_name\" : \"BANKACCOUNT\"\n  }, {\n    \"_type\" : \"database_table\",\n    \"_id\" : \"b1c497ce.54bd3a08.61r4e6psn.8ajkbed.r43ofr.d9916c1rdut3tk3ktek3r\",\n    \"_context\" : [ {\n      \"_type\" : \"host\",\n      \"_id\" : \"b1c497ce.354f5217.61r4e6psn.823flft.gskm3a.rnnvh0im95o0ltb17e61g\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.354f5217.61r4e6psn.823flft.gskm3a.rnnvh0im95o0ltb17e61g\",\n      \"_name\" : \"localhost\"\n    }, {\n      \"_type\" : \"database\",\n      \"_id\" : \"b1c497ce.6e83759b.61r4e6psn.8k6hogq.mh8tui.qv55iqfi8io36pr064fc1\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.6e83759b.61r4e6psn.8k6hogq.mh8tui.qv55iqfi8io36pr064fc1\",\n      \"_name\" : \"arubamdm\"\n    }, {\n      \"_type\" : \"database_schema\",\n      \"_id\" : \"b1c497ce.c1fb060b.61r4e6psn.8k68gid.djkfbv.8933vsqfh73r4i5m9kd20\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.c1fb060b.61r4e6psn.8k68gid.djkfbv.8933vsqfh73r4i5m9kd20\",\n      \"_name\" : \"DB2ADMIN\"\n    } ],\n    \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.54bd3a08.61r4e6psn.8ajkbed.r43ofr.d9916c1rdut3tk3ktek3r\",\n    \"_name\" : \"H_BANKACCOUNT\"\n  } ],\n  \"paging\" : {\n    \"numTotal\" : 3,\n    \"pageSize\" : 10,\n    \"end\" : 2,\n    \"begin\" : 0\n  }\n}"
 						},
 						{
-							"id": "0bed9142-0ba8-4071-9b05-07afc4660e49",
+							"id": "1571d48c-5126-4929-b2e1-c0dd04feb323",
 							"name": "startingWithS",
 							"originalRequest": {
 								"method": "GET",
@@ -3413,7 +3398,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/search/",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/search",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3425,15 +3410,14 @@
 								"igc-rest",
 								"v1",
 								"metadata",
-								"search",
-								""
+								"search"
 							]
 						},
 						"description": "Search for assets in the catalog by posting a complex search request\n\nSee the Examples for detailed examples including a variety of different conditions."
 					},
 					"response": [
 						{
-							"id": "c4cd2ddf-a0b1-4178-88f7-ef38b32aa171",
+							"id": "24522c48-41db-4664-b1f1-8e7b1abe2354",
 							"name": "manyConditions",
 							"originalRequest": {
 								"method": "POST",
@@ -3474,7 +3458,7 @@
 							"body": "{\n  \"items\" : [ {\n    \"modified_on\" : \"2015-01-01T12:36Z\",\n    \"_type\" : \"term\",\n    \"short_description\" : \"Adding a short description\",\n    \"_id\" : \"6662c0f2.e1b1ec6c.p764l98h8.1ij2a5e.rbiis2.nbbuhdabo7mtpc6c6iupg\",\n    \"_context\" : [ {\n      \"_type\" : \"category\",\n      \"_id\" : \"6662c0f2.ee6a64fe.p764l98h5.t2ve0u2.1dru7c.v9mnvhaaqjcd1r93fv9j0\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.ee6a64fe.p764l98h5.t2ve0u2.1dru7c.v9mnvhaaqjcd1r93fv9j0\",\n      \"_name\" : \"Generated category 1\"\n    } ],\n    \"parent_category\" : {\n      \"_type\" : \"category\",\n      \"_id\" : \"6662c0f2.ee6a64fe.p764l98h5.t2ve0u2.1dru7c.v9mnvhaaqjcd1r93fv9j0\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.ee6a64fe.p764l98h5.t2ve0u2.1dru7c.v9mnvhaaqjcd1r93fv9j0\",\n      \"_name\" : \"Generated category 1\"\n    },\n    \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.e1b1ec6c.p764l98h8.1ij2a5e.rbiis2.nbbuhdabo7mtpc6c6iupg\",\n    \"labels\" : {\n      \"items\" : [ {\n        \"_type\" : \"label\",\n        \"_id\" : \"6662c0f2.22257cc4.p764l98ha.tt577vu.7i4tdp.cc2c4udcrjql21nklt5s4\",\n        \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.22257cc4.p764l98ha.tt577vu.7i4tdp.cc2c4udcrjql21nklt5s4\",\n        \"_name\" : \"measure\"\n      } ],\n      \"paging\" : {\n        \"numTotal\" : 1,\n        \"pageSize\" : 1,\n        \"end\" : 0,\n        \"begin\" : 0\n      }\n    },\n    \"name\" : \"An originator\",\n    \"_name\" : \"An originator\"\n  } ],\n  \"paging\" : {\n    \"numTotal\" : 1,\n    \"pageSize\" : 10,\n    \"end\" : 0,\n    \"begin\" : 0\n  }\n}"
 						},
 						{
-							"id": "ed08d71c-e4ad-4893-a2ae-c4b43dae36cf",
+							"id": "f5e4f64b-61c3-4458-9873-cce3595b1cf9",
 							"name": "relationshipConditions",
 							"originalRequest": {
 								"method": "POST",
@@ -3554,7 +3538,7 @@
 					},
 					"response": [
 						{
-							"id": "fdf465ea-ba3f-492d-b8db-4450e49f6be1",
+							"id": "a78604b8-a300-4641-a2b1-104da294da19",
 							"name": "database_table",
 							"originalRequest": {
 								"method": "GET",
@@ -3612,7 +3596,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/types/",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/types",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3624,15 +3608,14 @@
 								"igc-rest",
 								"v1",
 								"metadata",
-								"types",
-								""
+								"types"
 							]
 						},
 						"description": "Get the list of all asset types in the catalog"
 					},
 					"response": [
 						{
-							"id": "5d5dda43-99ae-4ee6-96a9-36b9470caefb",
+							"id": "a970e852-c075-4205-80fe-848e889d3ec6",
 							"name": "getAllTypes",
 							"originalRequest": {
 								"method": "GET",
@@ -3712,7 +3695,7 @@
 					},
 					"response": [
 						{
-							"id": "7cf4be9a-c984-4d3f-b159-c7b6e11a7878",
+							"id": "f656be9e-4205-4506-a542-97c8c3583454",
 							"name": "allTermProperties",
 							"originalRequest": {
 								"method": "GET",
@@ -3806,7 +3789,7 @@
 					},
 					"response": [
 						{
-							"id": "dbac1545-84fa-441a-a6fd-5f8318d5f731",
+							"id": "db7cb9e8-6c21-40a4-8e22-25a66aeee60b",
 							"name": "addToMultiple",
 							"originalRequest": {
 								"method": "POST",
@@ -3883,7 +3866,7 @@
 					},
 					"response": [
 						{
-							"id": "63762a89-e958-4d3b-96e7-468e069ff6b3",
+							"id": "21b2440a-9abb-40fc-8072-42a718482de6",
 							"name": "withComment",
 							"originalRequest": {
 								"method": "POST",
@@ -3987,7 +3970,7 @@
 					},
 					"response": [
 						{
-							"id": "8100156b-b59c-4563-9cdf-034caa811361",
+							"id": "698c37b5-6393-43f2-bf0f-787cf50da3c8",
 							"name": "withComment",
 							"originalRequest": {
 								"method": "POST",
@@ -4091,7 +4074,7 @@
 					},
 					"response": [
 						{
-							"id": "eeb8e4ae-e7a9-403c-9966-c1fd7170724c",
+							"id": "167fc02c-da3e-40fa-ab6c-c94c5a94bc2e",
 							"name": "publishMultipleWithComment",
 							"originalRequest": {
 								"method": "POST",
@@ -4168,7 +4151,7 @@
 					},
 					"response": [
 						{
-							"id": "f8e86665-0039-4204-8b9c-6d832c8a6629",
+							"id": "26daeba1-4f38-43d6-9d2f-185300edbe94",
 							"name": "multipleWithComment",
 							"originalRequest": {
 								"method": "POST",
@@ -4245,7 +4228,7 @@
 					},
 					"response": [
 						{
-							"id": "ef941059-42c9-4c20-b127-5d04e53fb1c3",
+							"id": "f8d1ff5e-688a-48bd-9c55-03a79cb77b51",
 							"name": "returnMultipleWithComment",
 							"originalRequest": {
 								"method": "POST",
@@ -4314,7 +4297,7 @@
 					},
 					"response": [
 						{
-							"id": "33df8a3a-5c08-432e-b631-6ee67bb153fa",
+							"id": "94fb9014-9fd6-4e4b-a21d-c9723cfbc203",
 							"name": "getStatus",
 							"originalRequest": {
 								"method": "GET",
@@ -4356,7 +4339,7 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/logout/",
+					"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/logout",
 					"protocol": "https",
 					"host": [
 						"{{host}}"
@@ -4368,8 +4351,7 @@
 						"igc-rest",
 						"v1",
 						"metadata",
-						"logout",
-						""
+						"logout"
 					]
 				},
 				"description": "Log out of the current session\n\nResponses:\n- `500`\tFailed to close current session"

@@ -29,7 +29,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/attributes",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -40,7 +40,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"attributes"
 									]
@@ -49,7 +48,7 @@
 							},
 							"response": [
 								{
-									"id": "033e019b-847b-4ccb-a33c-a6464f1c8ec6",
+									"id": "205200de-1d64-4b52-85b4-6c8923959027",
 									"name": "relationship",
 									"originalRequest": {
 										"method": "POST",
@@ -90,7 +89,7 @@
 									"body": ""
 								},
 								{
-									"id": "7cd12d28-e6d6-424f-a1b9-19becceb10f2",
+									"id": "c35db715-b782-4924-8a23-cd529ac8ccc5",
 									"name": "text",
 									"originalRequest": {
 										"method": "POST",
@@ -132,7 +131,7 @@
 									"body": ""
 								},
 								{
-									"id": "905d821b-34f0-4e60-a86e-a95ca1d1180a",
+									"id": "c4fba793-9efc-4513-a95f-35949e8904f6",
 									"name": "numeric",
 									"originalRequest": {
 										"method": "POST",
@@ -173,7 +172,7 @@
 									"body": ""
 								},
 								{
-									"id": "1eb66c22-39f5-41a0-b442-d7c8f3a4e216",
+									"id": "b7cd96a3-620f-425b-bd7e-9fa7e7623ec7",
 									"name": "date",
 									"originalRequest": {
 										"method": "POST",
@@ -214,7 +213,7 @@
 									"body": ""
 								},
 								{
-									"id": "b03f3252-83cd-44a6-87f0-89fe50d9117c",
+									"id": "2c1d0174-a02c-421e-952a-0d2f86f0daa9",
 									"name": "enumeration",
 									"originalRequest": {
 										"method": "POST",
@@ -271,7 +270,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/attributes",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -282,7 +281,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"attributes"
 									]
@@ -291,7 +289,7 @@
 							},
 							"response": [
 								{
-									"id": "c1b5c584-d5a9-409d-83dd-7c4dd33868e0",
+									"id": "68cf869a-a6b1-4e7a-ac8d-451f3c153583",
 									"name": "arrayOfRIDs",
 									"originalRequest": {
 										"method": "DELETE",
@@ -341,7 +339,7 @@
 								"header": [],
 								"body": {},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes?begin=&pageSize=",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/attributes?begin=&pageSize=",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -352,7 +350,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"attributes"
 									],
@@ -371,7 +368,7 @@
 							},
 							"response": [
 								{
-									"id": "2bad61d0-bc55-4e62-9bf5-dd3a554ed378",
+									"id": "2b72f28a-5a77-465a-a069-6ee6f19e862c",
 									"name": "getCustomAttributes",
 									"originalRequest": {
 										"method": "GET",
@@ -430,7 +427,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes/:id",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/attributes/:id",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -441,7 +438,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"attributes",
 										":id"
@@ -457,7 +453,7 @@
 							},
 							"response": [
 								{
-									"id": "db012ddc-50e4-4ff5-9cf4-a9fe3aa1cf75",
+									"id": "fd6705d2-f8e4-42e3-91a8-35fca43331a6",
 									"name": "date",
 									"originalRequest": {
 										"method": "PUT",
@@ -504,7 +500,7 @@
 									"body": ""
 								},
 								{
-									"id": "eeafbef5-3225-4ff5-ad4e-008c10bb16ef",
+									"id": "996361ca-9215-4bc9-83c5-e6bb372f97ac",
 									"name": "numeric",
 									"originalRequest": {
 										"method": "PUT",
@@ -551,7 +547,7 @@
 									"body": ""
 								},
 								{
-									"id": "853bb3db-dc35-479c-b567-715d59821071",
+									"id": "0a364645-c7c9-4a66-8528-996ead31ab7d",
 									"name": "relationship",
 									"originalRequest": {
 										"method": "PUT",
@@ -598,7 +594,7 @@
 									"body": ""
 								},
 								{
-									"id": "9a1c63eb-afa5-4880-a156-f66d9a12ca1d",
+									"id": "d2640385-3691-4e12-b1f2-50cf644f55ba",
 									"name": "enumeration",
 									"originalRequest": {
 										"method": "PUT",
@@ -645,7 +641,7 @@
 									"body": ""
 								},
 								{
-									"id": "e43ce564-1316-4b2f-a8ca-c3ff640feef8",
+									"id": "1cb38806-0a75-4626-8c1c-035c5c089330",
 									"name": "text",
 									"originalRequest": {
 										"method": "PUT",
@@ -701,7 +697,7 @@
 								"header": [],
 								"body": {},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes/:id",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/attributes/:id",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -712,7 +708,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"attributes",
 										":id"
@@ -728,7 +723,7 @@
 							},
 							"response": [
 								{
-									"id": "1d5c8822-6690-4473-bb47-0e80f5ac629b",
+									"id": "38d2a58b-a2a7-4221-9e0d-fe7b6dbd4fbf",
 									"name": "byId",
 									"originalRequest": {
 										"method": "GET",
@@ -775,7 +770,7 @@
 								"header": [],
 								"body": {},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/attributes/:id",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/attributes/:id",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -786,7 +781,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"attributes",
 										":id"
@@ -802,7 +796,7 @@
 							},
 							"response": [
 								{
-									"id": "9e2fd4c9-eec9-4b3b-a923-414bf21b0859",
+									"id": "7b0e9b96-4574-4eb6-9f57-99092eb14875",
 									"name": "byId",
 									"originalRequest": {
 										"method": "DELETE",
@@ -864,7 +858,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/labels",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/labels",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -875,7 +869,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"labels"
 									]
@@ -884,7 +877,7 @@
 							},
 							"response": [
 								{
-									"id": "60229b9b-ecb4-4028-bb3d-a1d06787baf6",
+									"id": "209af57d-0147-4a56-bea0-f54dec8e6aac",
 									"name": "arrayOfRIDs",
 									"originalRequest": {
 										"method": "DELETE",
@@ -937,7 +930,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/labels",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/labels",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -948,7 +941,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"labels"
 									]
@@ -957,7 +949,7 @@
 							},
 							"response": [
 								{
-									"id": "f3be0a8c-508f-48d0-b502-a88f7ba42c23",
+									"id": "da5ea434-eabd-4f06-8a1a-e23a4fd30526",
 									"name": "nameAndDescription",
 									"originalRequest": {
 										"method": "POST",
@@ -1002,7 +994,7 @@
 								"header": [],
 								"body": {},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/labels/:id",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/labels/:id",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1013,7 +1005,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"labels",
 										":id"
@@ -1029,7 +1020,7 @@
 							},
 							"response": [
 								{
-									"id": "c5530922-75fc-4c22-bd01-0e56b6a92d03",
+									"id": "9b4b6bdb-4b43-4b2e-9b11-87e870998dd5",
 									"name": "byId",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1084,7 +1075,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/labels/:id",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/labels/:id",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1095,7 +1086,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"labels",
 										":id"
@@ -1111,7 +1101,7 @@
 							},
 							"response": [
 								{
-									"id": "52f84246-cb10-4702-90b5-0e3ad67ec978",
+									"id": "ee5f9118-d1ec-481d-8e77-4195381cabbf",
 									"name": "byId",
 									"originalRequest": {
 										"method": "PUT",
@@ -1182,7 +1172,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/steward_groups",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/steward_groups",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1193,7 +1183,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"steward_groups"
 									]
@@ -1202,7 +1191,7 @@
 							},
 							"response": [
 								{
-									"id": "b63c8ceb-3181-4e75-8eb9-d2715381f58b",
+									"id": "aceb3149-f508-4a40-ad24-b848e768f94c",
 									"name": "arrayOfRIDs",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1259,7 +1248,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/steward_groups",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/steward_groups",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1270,7 +1259,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"steward_groups"
 									]
@@ -1279,7 +1267,7 @@
 							},
 							"response": [
 								{
-									"id": "6ed32dab-7924-445c-81b4-efff5f3ac1ee",
+									"id": "297a80ac-9d3e-420f-9365-7d1ff85560ef",
 									"name": "byUserGroupId",
 									"originalRequest": {
 										"method": "POST",
@@ -1329,7 +1317,7 @@
 								"header": [],
 								"body": {},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/steward_groups/:id",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/steward_groups/:id",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1340,7 +1328,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"steward_groups",
 										":id"
@@ -1356,7 +1343,7 @@
 							},
 							"response": [
 								{
-									"id": "0372f334-a2db-43cc-8250-2be872fff05b",
+									"id": "7259ec73-7f0a-4268-ab1a-05a84330f273",
 									"name": "byId",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1418,7 +1405,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/stewards",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/stewards",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1429,7 +1416,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"stewards"
 									]
@@ -1438,7 +1424,7 @@
 							},
 							"response": [
 								{
-									"id": "026d902e-9b97-4cc0-b088-288c9f39113b",
+									"id": "4007d12a-f537-4aa0-b344-fbcece67e42b",
 									"name": "byUserId",
 									"originalRequest": {
 										"method": "POST",
@@ -1497,7 +1483,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/stewards",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/stewards",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1508,7 +1494,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"stewards"
 									]
@@ -1517,7 +1502,7 @@
 							},
 							"response": [
 								{
-									"id": "6a24d494-518b-439f-a164-7b75afe0370d",
+									"id": "597a56ec-ba7e-4592-bf61-ed1df58d745e",
 									"name": "arrayOfRIDs",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1567,7 +1552,7 @@
 								"header": [],
 								"body": {},
 								"url": {
-									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/administration/stewards/:id",
+									"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/administration/stewards/:id",
 									"protocol": "https",
 									"host": [
 										"{{host}}"
@@ -1578,7 +1563,6 @@
 										"iis",
 										"igc-rest",
 										"v1",
-										"metadata",
 										"administration",
 										"stewards",
 										":id"
@@ -1594,7 +1578,7 @@
 							},
 							"response": [
 								{
-									"id": "95ddfdf8-9c90-4f8e-b260-93dc1731df3c",
+									"id": "0c95ee4d-5f35-4bb5-b830-ba9a59bd2f68",
 									"name": "byId",
 									"originalRequest": {
 										"method": "DELETE",
@@ -1658,7 +1642,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -1669,7 +1653,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"assets"
 							]
 						},
@@ -1677,7 +1660,7 @@
 					},
 					"response": [
 						{
-							"id": "8a64fa3a-8217-4cdf-9433-2a12b05a34be",
+							"id": "fec459f4-d628-4d51-b3e8-aca72e4e695a",
 							"name": "addLabelAndMore",
 							"originalRequest": {
 								"method": "PUT",
@@ -1734,7 +1717,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -1745,7 +1728,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"assets"
 							]
 						},
@@ -1753,7 +1735,7 @@
 					},
 					"response": [
 						{
-							"id": "432a40de-638c-4f13-98d4-5e1e052639df",
+							"id": "4c3e7d7f-aec8-4d6a-b1cc-9bd8a93a9a7b",
 							"name": "createDataClass",
 							"originalRequest": {
 								"method": "POST",
@@ -1793,7 +1775,7 @@
 							"body": ""
 						},
 						{
-							"id": "868b9cd1-e4e5-423d-b981-f0c8d07599e9",
+							"id": "be235b3e-3ed2-431a-b550-2de42a6b47e3",
 							"name": "createTerm",
 							"originalRequest": {
 								"method": "POST",
@@ -1841,7 +1823,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets/:id?mode=&metadata=&showHistory=",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id?mode=&metadata=&showHistory=",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -1852,7 +1834,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"assets",
 								":id"
 							],
@@ -1881,7 +1862,7 @@
 					},
 					"response": [
 						{
-							"id": "9b2a117f-0cb9-41f2-8711-0ade78b65d1a",
+							"id": "e80da6ef-d048-4c12-a676-ed2d67be3896",
 							"name": "byId",
 							"originalRequest": {
 								"method": "GET",
@@ -1949,7 +1930,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets/:id",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -1960,7 +1941,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"assets",
 								":id"
 							],
@@ -1975,7 +1955,7 @@
 					},
 					"response": [
 						{
-							"id": "5d427923-1d83-480e-951f-9484e1cc21af",
+							"id": "ba3f8d12-19ca-45c2-8a2c-2872825b378d",
 							"name": "replaceLabels",
 							"originalRequest": {
 								"method": "PUT",
@@ -2021,7 +2001,7 @@
 							"body": ""
 						},
 						{
-							"id": "8fb87d9a-83f2-4d83-870e-ff346352dd1e",
+							"id": "3111eeaf-0257-4534-8b67-59944330b111",
 							"name": "updateWithMultipleValues",
 							"originalRequest": {
 								"method": "PUT",
@@ -2067,7 +2047,7 @@
 							"body": ""
 						},
 						{
-							"id": "340a3d89-171b-4f6d-ae02-d3c49c4e7095",
+							"id": "a88e3cb1-3c0d-4003-b560-3b82318e1711",
 							"name": "addLabels",
 							"originalRequest": {
 								"method": "PUT",
@@ -2114,7 +2094,7 @@
 							"body": ""
 						},
 						{
-							"id": "3314ce73-68bd-429f-842e-3cf815d73b05",
+							"id": "39a28acf-118b-4dcc-8701-e01145d421ff",
 							"name": "removeLabels",
 							"originalRequest": {
 								"method": "PUT",
@@ -2168,7 +2148,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets/:id?comment=",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id?comment=",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2179,7 +2159,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"assets",
 								":id"
 							],
@@ -2200,7 +2179,7 @@
 					},
 					"response": [
 						{
-							"id": "d71c9231-e8c5-45b5-a80a-54b0f380ef26",
+							"id": "2cc97f7a-09b5-4f42-85d6-615e75be089c",
 							"name": "byIdWithComment",
 							"originalRequest": {
 								"method": "DELETE",
@@ -2252,7 +2231,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets/:id/:property?begin=&pageSize=",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id/:property?begin=&pageSize=",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2263,7 +2242,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"assets",
 								":id",
 								":property"
@@ -2293,7 +2271,7 @@
 					},
 					"response": [
 						{
-							"id": "5e65a627-3dc9-4d71-ac72-d8c4b32c308e",
+							"id": "37303e1b-f8f4-45d8-b4a0-aaba00470ede",
 							"name": "getAssignedToTerms",
 							"originalRequest": {
 								"method": "GET",
@@ -2346,7 +2324,7 @@
 							"body": "{\n  \"assigned_to_terms\" : {\n    \"items\" : [ {\n      \"_type\" : \"term\",\n      \"_id\" : \"6662c0f2.e1b1ec6c.p864kc71e.h0sg5bl.ts8vmu.ut3qd549drooimq967loj\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.e1b1ec6c.p864kc71e.h0sg5bl.ts8vmu.ut3qd549drooimq967loj\",\n      \"_name\" : \"User bank account\"\n    } ],\n    \"paging\" : {\n      \"numTotal\" : 1,\n      \"pageSize\" : 10,\n      \"end\" : 0,\n      \"begin\" : 0\n    }\n  }\n}"
 						},
 						{
-							"id": "a77fd761-0705-4f7c-96cd-2c97c68324c5",
+							"id": "7994d15c-063d-4f84-bf25-a55ef1970b18",
 							"name": "getTermShortDescription",
 							"originalRequest": {
 								"method": "GET",
@@ -2415,7 +2393,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets/:id/:property",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/:id/:property",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2426,7 +2404,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"assets",
 								":id",
 								":property"
@@ -2446,7 +2423,7 @@
 					},
 					"response": [
 						{
-							"id": "13b334c4-39a1-40d2-a065-84224eaec7cb",
+							"id": "15cb1b38-9ab1-4232-b06b-9d4c684ffd03",
 							"name": "addMultipleValues",
 							"originalRequest": {
 								"method": "PUT",
@@ -2514,7 +2491,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/assets/admin/dataconnection",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/assets/admin/dataconnection",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2525,7 +2502,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"assets",
 								"admin",
 								"dataconnection"
@@ -2535,7 +2511,7 @@
 					},
 					"response": [
 						{
-							"id": "51763098-659a-4a6a-96df-08d971058ec4",
+							"id": "8986df82-6f05-471a-b412-47e1c99472a9",
 							"name": "byConnectionString",
 							"originalRequest": {
 								"method": "PUT",
@@ -2591,7 +2567,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2602,7 +2578,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"bundles"
 							]
 						},
@@ -2610,7 +2585,7 @@
 					},
 					"response": [
 						{
-							"id": "11c4f9a4-3858-487c-aa2b-e7b9fd54847c",
+							"id": "030f329d-2ebc-4416-aecd-261bbec5d2ca",
 							"name": "getBundles",
 							"originalRequest": {
 								"method": "GET",
@@ -2653,7 +2628,7 @@
 							"file": {}
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2664,7 +2639,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"bundles"
 							]
 						},
@@ -2682,7 +2656,7 @@
 							"file": {}
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2693,7 +2667,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"bundles"
 							]
 						},
@@ -2708,7 +2681,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles/:id",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/:id",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2719,7 +2692,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"bundles",
 								":id"
 							],
@@ -2734,7 +2706,7 @@
 					},
 					"response": [
 						{
-							"id": "9222af20-a36d-4585-bbb6-a785dadd6153",
+							"id": "22abee6f-c112-4a66-a9a8-f38b460bb0a4",
 							"name": "byName",
 							"originalRequest": {
 								"method": "DELETE",
@@ -2780,7 +2752,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles/:id",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/:id",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2791,7 +2763,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"bundles",
 								":id"
 							],
@@ -2821,7 +2792,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles/assets",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/assets",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2832,7 +2803,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"bundles",
 								"assets"
 							]
@@ -2841,7 +2811,7 @@
 					},
 					"response": [
 						{
-							"id": "c4938fb3-7c59-4788-92fd-eeff0f2475ab",
+							"id": "d3c34af5-e0e3-4259-9656-abec7c3a9b8b",
 							"name": "deleteAssets",
 							"originalRequest": {
 								"method": "DELETE",
@@ -2898,7 +2868,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles/assets",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/assets",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2909,7 +2879,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"bundles",
 								"assets"
 							]
@@ -2925,7 +2894,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/bundles/assets?family=&classes=",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/bundles/assets?family=&classes=",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2936,7 +2905,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"bundles",
 								"assets"
 							],
@@ -2968,7 +2936,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/flows/:criteria",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/:criteria",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -2979,7 +2947,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"flows",
 								":criteria"
 							],
@@ -3001,7 +2968,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/flows/detectFlows/dsjob/:id",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/detectFlows/dsjob/:id",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3012,7 +2979,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"flows",
 								"detectFlows",
 								"dsjob",
@@ -3044,7 +3010,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/flows/report",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/report",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3055,7 +3021,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"flows",
 								"report"
 							]
@@ -3079,7 +3044,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/flows/upload",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/upload",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3090,7 +3055,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"flows",
 								"upload"
 							]
@@ -3106,7 +3070,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/flows/url/:criteria",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/url/:criteria",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3117,7 +3081,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"flows",
 								"url",
 								":criteria"
@@ -3140,7 +3103,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/flows/util/snippet/:id",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/flows/util/snippet/:id",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3151,7 +3114,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"flows",
 								"util",
 								"snippet",
@@ -3181,7 +3143,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/search?types=&text=&search-properties=&properties=&where=&begin=&pageSize=&applyCriteriaToProperties=&workflowMode=",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/search?types=&text=&search-properties=&properties=&where=&begin=&pageSize=&applyCriteriaToProperties=&workflowMode=",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3192,7 +3154,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"search"
 							],
 							"query": [
@@ -3238,7 +3199,7 @@
 					},
 					"response": [
 						{
-							"id": "7ee318d3-1786-41ef-84b5-2bf7405bac3e",
+							"id": "9866a943-c9c3-4876-9afe-ba6abd8560a3",
 							"name": "notContainingBank",
 							"originalRequest": {
 								"method": "GET",
@@ -3312,7 +3273,7 @@
 							"body": "{\n  \"items\" : [ {\n    \"_type\" : \"term\",\n    \"_id\" : \"6662c0f2.e1b1ec6c.p764l95hu.5755bl1.sga7hs.99mg7kadp9js714ddk3i8\",\n    \"_context\" : [ {\n      \"_type\" : \"category\",\n      \"_id\" : \"6662c0f2.ee6a64fe.p764l95hr.ma3rs2j.1jepn8.uunj4ohq087of309to1cg\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.ee6a64fe.p764l95hr.ma3rs2j.1jepn8.uunj4ohq087of309to1cg\",\n      \"_name\" : \"Generated category 2\"\n    } ],\n    \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.e1b1ec6c.p764l95hu.5755bl1.sga7hs.99mg7kadp9js714ddk3i8\",\n    \"_name\" : \"User bank account\"\n  }, {\n    \"_type\" : \"database_table\",\n    \"_id\" : \"b1c497ce.54bd3a08.61r4e6psn.7q44t9b.22882h.i2h2pg9ti2goo3e04ov3t\",\n    \"_context\" : [ {\n      \"_type\" : \"host\",\n      \"_id\" : \"b1c497ce.354f5217.61r4e6psn.823flft.gskm3a.rnnvh0im95o0ltb17e61g\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.354f5217.61r4e6psn.823flft.gskm3a.rnnvh0im95o0ltb17e61g\",\n      \"_name\" : \"localhost\"\n    }, {\n      \"_type\" : \"database\",\n      \"_id\" : \"b1c497ce.6e83759b.61r4e6psn.8k6hogq.mh8tui.qv55iqfi8io36pr064fc1\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.6e83759b.61r4e6psn.8k6hogq.mh8tui.qv55iqfi8io36pr064fc1\",\n      \"_name\" : \"arubamdm\"\n    }, {\n      \"_type\" : \"database_schema\",\n      \"_id\" : \"b1c497ce.c1fb060b.61r4e6psn.8k68gid.djkfbv.8933vsqfh73r4i5m9kd20\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.c1fb060b.61r4e6psn.8k68gid.djkfbv.8933vsqfh73r4i5m9kd20\",\n      \"_name\" : \"DB2ADMIN\"\n    } ],\n    \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.54bd3a08.61r4e6psn.7q44t9b.22882h.i2h2pg9ti2goo3e04ov3t\",\n    \"_name\" : \"BANKACCOUNT\"\n  }, {\n    \"_type\" : \"database_table\",\n    \"_id\" : \"b1c497ce.54bd3a08.61r4e6psn.8ajkbed.r43ofr.d9916c1rdut3tk3ktek3r\",\n    \"_context\" : [ {\n      \"_type\" : \"host\",\n      \"_id\" : \"b1c497ce.354f5217.61r4e6psn.823flft.gskm3a.rnnvh0im95o0ltb17e61g\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.354f5217.61r4e6psn.823flft.gskm3a.rnnvh0im95o0ltb17e61g\",\n      \"_name\" : \"localhost\"\n    }, {\n      \"_type\" : \"database\",\n      \"_id\" : \"b1c497ce.6e83759b.61r4e6psn.8k6hogq.mh8tui.qv55iqfi8io36pr064fc1\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.6e83759b.61r4e6psn.8k6hogq.mh8tui.qv55iqfi8io36pr064fc1\",\n      \"_name\" : \"arubamdm\"\n    }, {\n      \"_type\" : \"database_schema\",\n      \"_id\" : \"b1c497ce.c1fb060b.61r4e6psn.8k68gid.djkfbv.8933vsqfh73r4i5m9kd20\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.c1fb060b.61r4e6psn.8k68gid.djkfbv.8933vsqfh73r4i5m9kd20\",\n      \"_name\" : \"DB2ADMIN\"\n    } ],\n    \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/b1c497ce.54bd3a08.61r4e6psn.8ajkbed.r43ofr.d9916c1rdut3tk3ktek3r\",\n    \"_name\" : \"H_BANKACCOUNT\"\n  } ],\n  \"paging\" : {\n    \"numTotal\" : 3,\n    \"pageSize\" : 10,\n    \"end\" : 2,\n    \"begin\" : 0\n  }\n}"
 						},
 						{
-							"id": "1571d48c-5126-4929-b2e1-c0dd04feb323",
+							"id": "c7807f14-51ab-42ba-8c04-a62e244ce44f",
 							"name": "startingWithS",
 							"originalRequest": {
 								"method": "GET",
@@ -3398,7 +3359,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/search",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/search",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3409,7 +3370,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"search"
 							]
 						},
@@ -3417,7 +3377,7 @@
 					},
 					"response": [
 						{
-							"id": "24522c48-41db-4664-b1f1-8e7b1abe2354",
+							"id": "1f662995-0264-4065-b3e0-24cfa6fc782f",
 							"name": "manyConditions",
 							"originalRequest": {
 								"method": "POST",
@@ -3458,7 +3418,7 @@
 							"body": "{\n  \"items\" : [ {\n    \"modified_on\" : \"2015-01-01T12:36Z\",\n    \"_type\" : \"term\",\n    \"short_description\" : \"Adding a short description\",\n    \"_id\" : \"6662c0f2.e1b1ec6c.p764l98h8.1ij2a5e.rbiis2.nbbuhdabo7mtpc6c6iupg\",\n    \"_context\" : [ {\n      \"_type\" : \"category\",\n      \"_id\" : \"6662c0f2.ee6a64fe.p764l98h5.t2ve0u2.1dru7c.v9mnvhaaqjcd1r93fv9j0\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.ee6a64fe.p764l98h5.t2ve0u2.1dru7c.v9mnvhaaqjcd1r93fv9j0\",\n      \"_name\" : \"Generated category 1\"\n    } ],\n    \"parent_category\" : {\n      \"_type\" : \"category\",\n      \"_id\" : \"6662c0f2.ee6a64fe.p764l98h5.t2ve0u2.1dru7c.v9mnvhaaqjcd1r93fv9j0\",\n      \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.ee6a64fe.p764l98h5.t2ve0u2.1dru7c.v9mnvhaaqjcd1r93fv9j0\",\n      \"_name\" : \"Generated category 1\"\n    },\n    \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.e1b1ec6c.p764l98h8.1ij2a5e.rbiis2.nbbuhdabo7mtpc6c6iupg\",\n    \"labels\" : {\n      \"items\" : [ {\n        \"_type\" : \"label\",\n        \"_id\" : \"6662c0f2.22257cc4.p764l98ha.tt577vu.7i4tdp.cc2c4udcrjql21nklt5s4\",\n        \"_url\" : \"https://localhost:9443/ibm/iis/igc-rest/v1/assets/6662c0f2.22257cc4.p764l98ha.tt577vu.7i4tdp.cc2c4udcrjql21nklt5s4\",\n        \"_name\" : \"measure\"\n      } ],\n      \"paging\" : {\n        \"numTotal\" : 1,\n        \"pageSize\" : 1,\n        \"end\" : 0,\n        \"begin\" : 0\n      }\n    },\n    \"name\" : \"An originator\",\n    \"_name\" : \"An originator\"\n  } ],\n  \"paging\" : {\n    \"numTotal\" : 1,\n    \"pageSize\" : 10,\n    \"end\" : 0,\n    \"begin\" : 0\n  }\n}"
 						},
 						{
-							"id": "f5e4f64b-61c3-4458-9873-cce3595b1cf9",
+							"id": "661ad082-eba4-4ecc-b4b4-394b0db6197d",
 							"name": "relationshipConditions",
 							"originalRequest": {
 								"method": "POST",
@@ -3506,7 +3466,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/search/:type?workflowMode=",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/search/:type?workflowMode=",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3517,7 +3477,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"search",
 								":type"
 							],
@@ -3538,7 +3497,7 @@
 					},
 					"response": [
 						{
-							"id": "a78604b8-a300-4641-a2b1-104da294da19",
+							"id": "c21920ab-8aec-435b-b83c-dab47bd4e1b4",
 							"name": "database_table",
 							"originalRequest": {
 								"method": "GET",
@@ -3596,7 +3555,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/types",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/types",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3607,7 +3566,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"types"
 							]
 						},
@@ -3615,7 +3573,7 @@
 					},
 					"response": [
 						{
-							"id": "a970e852-c075-4205-80fe-848e889d3ec6",
+							"id": "0ca2bd6e-c23f-4106-b5e9-3704719b28a4",
 							"name": "getAllTypes",
 							"originalRequest": {
 								"method": "GET",
@@ -3655,7 +3613,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/types/:id?showEditProperties=&showViewProperties=&showCreateProperties=",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/types/:id?showEditProperties=&showViewProperties=&showCreateProperties=",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3666,7 +3624,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"types",
 								":id"
 							],
@@ -3695,7 +3652,7 @@
 					},
 					"response": [
 						{
-							"id": "f656be9e-4205-4506-a542-97c8c3583454",
+							"id": "a27f4284-7f59-4c05-885b-c0a1bc7a8994",
 							"name": "allTermProperties",
 							"originalRequest": {
 								"method": "GET",
@@ -3769,7 +3726,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/workflow/addComment",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/addComment",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3780,7 +3737,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"workflow",
 								"addComment"
 							]
@@ -3789,7 +3745,7 @@
 					},
 					"response": [
 						{
-							"id": "db7cb9e8-6c21-40a4-8e22-25a66aeee60b",
+							"id": "8aaa0e70-fea9-4461-bbe3-7ebb98a5b3ee",
 							"name": "addToMultiple",
 							"originalRequest": {
 								"method": "POST",
@@ -3846,7 +3802,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/workflow/approve",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/approve",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3857,7 +3813,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"workflow",
 								"approve"
 							]
@@ -3866,7 +3821,7 @@
 					},
 					"response": [
 						{
-							"id": "21b2440a-9abb-40fc-8072-42a718482de6",
+							"id": "3bda4daa-2d8f-4e18-9e45-df09d9f6e137",
 							"name": "withComment",
 							"originalRequest": {
 								"method": "POST",
@@ -3915,7 +3870,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/workflow/disable",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/disable",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3926,7 +3881,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"workflow",
 								"disable"
 							]
@@ -3950,7 +3904,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/workflow/discard",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/discard",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -3961,7 +3915,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"workflow",
 								"discard"
 							]
@@ -3970,7 +3923,7 @@
 					},
 					"response": [
 						{
-							"id": "698c37b5-6393-43f2-bf0f-787cf50da3c8",
+							"id": "a71059b2-6f98-4e79-b61e-7fc88013765c",
 							"name": "withComment",
 							"originalRequest": {
 								"method": "POST",
@@ -4019,7 +3972,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/workflow/enable",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/enable",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -4030,7 +3983,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"workflow",
 								"enable"
 							]
@@ -4054,7 +4006,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/workflow/publish",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/publish",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -4065,7 +4017,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"workflow",
 								"publish"
 							]
@@ -4074,7 +4025,7 @@
 					},
 					"response": [
 						{
-							"id": "167fc02c-da3e-40fa-ab6c-c94c5a94bc2e",
+							"id": "70fe7a07-8c74-43f0-8b12-45ae796c5291",
 							"name": "publishMultipleWithComment",
 							"originalRequest": {
 								"method": "POST",
@@ -4131,7 +4082,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/workflow/request",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/request",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -4142,7 +4093,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"workflow",
 								"request"
 							]
@@ -4151,7 +4101,7 @@
 					},
 					"response": [
 						{
-							"id": "26daeba1-4f38-43d6-9d2f-185300edbe94",
+							"id": "c27b87a1-5fb1-4fd8-b684-7f3798112042",
 							"name": "multipleWithComment",
 							"originalRequest": {
 								"method": "POST",
@@ -4208,7 +4158,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/workflow/return",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/return",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -4219,7 +4169,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"workflow",
 								"return"
 							]
@@ -4228,7 +4177,7 @@
 					},
 					"response": [
 						{
-							"id": "f8d1ff5e-688a-48bd-9c55-03a79cb77b51",
+							"id": "5c7dbac3-136a-4f7a-85e2-8ad5b578488e",
 							"name": "returnMultipleWithComment",
 							"originalRequest": {
 								"method": "POST",
@@ -4277,7 +4226,7 @@
 						"header": [],
 						"body": {},
 						"url": {
-							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/workflow/status",
+							"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/workflow/status",
 							"protocol": "https",
 							"host": [
 								"{{host}}"
@@ -4288,7 +4237,6 @@
 								"iis",
 								"igc-rest",
 								"v1",
-								"metadata",
 								"workflow",
 								"status"
 							]
@@ -4297,7 +4245,7 @@
 					},
 					"response": [
 						{
-							"id": "94fb9014-9fd6-4e4b-a21d-c9723cfbc203",
+							"id": "5be00fc3-8701-421f-af6b-478630dd5ad2",
 							"name": "getStatus",
 							"originalRequest": {
 								"method": "GET",
@@ -4339,7 +4287,7 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/metadata/logout",
+					"raw": "https://{{host}}:{{port}}/ibm/iis/igc-rest/v1/logout",
 					"protocol": "https",
 					"host": [
 						"{{host}}"
@@ -4350,7 +4298,6 @@
 						"iis",
 						"igc-rest",
 						"v1",
-						"metadata",
 						"logout"
 					]
 				},
